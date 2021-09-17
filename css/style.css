@@ -1,8 +1,27 @@
-body {
-  background-color: orange;
-  margin: 0px;
+
+.btn {
+  align-items: center;
+  background-image: url(btn.svg);
+  background-size: 100% 100%;
+  border-radius: 12px;
+  display: flex;
+  height: 56px;
+  overflow: hidden;
+  padding: 0 30px;
+  width: 158px;
 }
 
-p {
-  color: blue;
+.text-1 {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-left: 2px;
+  min-height: 24px;
+  min-width: 96px;
+  white-space: nowrap;
 }
+
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,300,700,500");
+
+
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,300,700,500");
+
