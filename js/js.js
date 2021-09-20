@@ -1,2 +1,1 @@
 //Js document
-alert("tt")
