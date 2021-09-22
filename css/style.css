@@ -3,7 +3,7 @@
 * {box-sizing: border-box;}
 
 body{background: #F2F2F2;
-
+  overflow-x: hidden;
 }
 .form__name {
   position: relative;
@@ -17,7 +17,7 @@ body{background: #F2F2F2;
 
 }
 .dropdown{
-  width: 552px;
+  width: 122px;
 
 }
 .dropdown input {
@@ -66,7 +66,7 @@ body{background: #F2F2F2;
   height: 24px;
   border: none;
   background-color: #EAEAF3;
-  border-radius: 6px;
+  border-radius: 20px;
   cursor: pointer;
 }
 .buttonn__arrow:hover, .buttonn__arrow:focus{
@@ -197,12 +197,12 @@ body{background: #F2F2F2;
   padding: 0 0 16px 0;
 }
 .dropdown{
-  width: 552px;
+  width: 122px;
   height: 56px;
 }
 .mars {
-width: 160px;
-height: 40px;
+  width: 122px;
+  height: 40px;
 
   border: 1px solid #EAEAF3;
   border-radius: 25px;
@@ -213,11 +213,12 @@ height: 40px;
   font-size: 18px;
   font-weight: 300;
 }
- .mars{
+.mars{
 
  text-align: left;  
  position: absolute;
-  padding-left: 50px;}
+ padding-left: 50px;
+}
 .mars1 {
   width: 122px;
   height: 140px;
@@ -233,8 +234,8 @@ height: 40px;
 
 
 a:hover {
-   color: #BCBCC7;
-  transition: all 0.5s ease 0s
+ color: #BCBCC7;
+ transition: all 0.5s ease 0s
 }
 .dropdown-menu a{
   text-decoration: none;
@@ -278,7 +279,7 @@ a:hover {
   box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.15) inset;
 
 }
-.bt2:hover{
+.bt3:hover{
 
   box-shadow: 0px 8px 16px 0px #19B7BB52;
   transition: all 0.7s ease 0s;
@@ -288,15 +289,15 @@ a:hover {
 
 .spas{
   position: static;
-  width: 94px;
-  height: 24px;
+  width: 182px;
+  height: 32px;
   left: 32px;
   top: 16px;
   font-family: Ubuntu;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 32px;
 
 
   color: #FFFFFF;
@@ -317,10 +318,10 @@ a:hover {
   padding: 16px 32px;
 
   position: absolute;
-  width: 117px;
-  height: 56px;
-  left: 348px;
-  top: 1099px;
+  width: 246px;
+  height: 64px;
+  left: 116px;
+  top: 650px;
 }
 .teleg{
 
@@ -344,8 +345,8 @@ a:hover {
 
 }
 .telegimage{
-position: absolute;
-left: 20px;
+  position: absolute;
+  left: 20px;
 
 }
 .telegt{
@@ -434,4 +435,219 @@ left: 20px;
 .scroll, .circle__dot:hover{
   top: 40%;
   transition: all 0.5s ease 0s;
+}
+/* main page*/
+.mainpage{
+  position: absolute;
+  width: 1800px;
+  height: 960px;
+  left: 60px;
+  top: 60px;
+
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 0px 24px rgba(126, 120, 120, 0.1);
+  backdrop-filter: blur(150px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 48px;
+}
+.mainpage-img{
+  position: absolute;
+  width: 2453.57px;
+  height: 1497.53px;
+  left: -323.57px;
+  top: -62px;
+
+}
+.gexabyte_logo {
+  position: absolute;
+  width: 280px;
+  height: 32px;
+  left: 56px;
+  margin-top: 48px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  left: 400px;
+  right: 907px;
+  top: 52px;
+  bottom: 884px;
+
+
+}
+a {
+  color: #26323E;
+  text-decoration: none;
+}
+.textnavbar a{
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+
+}
+.navbar1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  left: 927px;
+  right: 527px;
+  top: 52px;
+  bottom: 884px;
+  width: 100%;
+}
+.textnavbar a:last-child{
+  padding: 10px;
+
+}
+.rectangle-on-menu-blue{
+  position: absolute;
+  width: 2px;
+  height: 32px;
+  right: 889px;
+  left: 909px;
+  bottom: 880px;
+  top: 48px;
+
+  /* mainColor */
+
+  background: #19B7BB
+}
+
+.social_pos{
+  position: absolute;
+
+
+  right: 282px;
+  top: 44px;
+
+}
+.social_pos1{
+ position: absolute;
+
+ right: 226px;
+ top: 44px;
+}
+.social_pos2{
+ position: absolute;
+
+ right: 170px;
+ top: 44px;
+}
+.position-rus-eng{
+
+  position: absolute;
+
+  right: 32px;
+  top: 44px;
+
+}
+.textindex{
+  position: absolute;
+  width: 800px;
+  height: 160px;
+  left: 116px;
+  top: 310px;
+
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 80px;
+  /* or 125% */
+}
+.textindex1{
+  position: absolute;
+  width: 600px;
+  height: 108px;
+  left: 116px;
+  top: 502px;
+
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  /* or 150% */
+
+
+  color: #363E4D;
+
+}
+.btn-white{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 32px;
+
+  position: absolute;
+  width: 222px;
+  height: 64px;
+  left: 386px;
+  top: 650px;
+
+  /* white */
+
+  background: #FFFFFF;
+  /* btnShadow */
+
+  box-shadow: 0px 8px 16px rgba(116, 115, 115, 0.15);
+
+}
+.spas1 {
+  position: static;
+  width: 158px;
+  height: 32px;
+  left: 32px;
+  top: 16px;
+
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+
+
+  /* black */
+
+  color: #252729;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10
+}
+.background01010{
+  position:absolute;
+
+  left: 150px;
+  top: 167px;
+  box-shadow: inset -3px 3px 4px rgba(255, 255, 255, 0.2);
+  filter: drop-shadow(8px -8px 10px rgba(255, 255, 255, 0.07)) drop-shadow(-10px 10px 10px rgba(0, 0, 0, 0.25)) drop-shadow(-30px 30px 30px rgba(0, 0, 0, 0.2)) drop-shadow(-45px 45px 70px rgba(0, 0, 0, 0.2));
+  opacity: 0.25;
+}
+.main-img-start{
+  position: absolute;
+
+  left: 888px;
+  top: 227px;
+}
+.scroll_pos{
+ position: absolute;
+
+ left: 876px;
+ top: 976px;
 }
