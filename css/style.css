@@ -604,12 +604,23 @@ border-radius: 12px;
     width: 110%;
     height: 110%;
     left: 0px;
-    top: -62px;
+   top: -118px;
 
     overflow: hidden;
   }
 }
 
+@media screen and (max-width: 1300px) {
+
+  .mainpage-img{
+   position: absolute;
+    width: 125%;
+    height: 124%;
+    left: -258px;
+    top: -165px;
+    overflow: hidden
+  }
+}
 
 
 @media screen and (max-width: 768px) {
