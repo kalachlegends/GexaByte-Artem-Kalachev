@@ -472,6 +472,11 @@ top: 252px;;
   position: relative;
   cursor: pointer;
 }
+@media (max-width: 420px){
+  .social{
+display: none;
+  }
+}
 .social svg{
   position: absolute;
   margin: 10px;
@@ -564,6 +569,14 @@ border-radius: 16px;
 
   }
 }
+@media screen and (max-width: 320px) {
+  .mainpage{
+    height: 374px;  
+
+
+
+  }
+}
 
 
 @media screen and (max-width: 1500px) {
@@ -588,14 +601,15 @@ border-radius: 12px;
 
   .mainpage-img{
     position: absolute;
-    width: 105%;
-    height: 130%;
+    width: 110%;
+    height: 110%;
     left: 0px;
     top: -62px;
 
     overflow: hidden;
   }
 }
+
 
 
 @media screen and (max-width: 768px) {
@@ -919,6 +933,14 @@ margin-left: -5px;
 
   }
 }
+@media screen and (max-width: 320px) {
+  .background01010{
+    top: 70px;  
+    left: 10%;
+    width: 218px;
+
+  }
+}
 .main-img-start{
   pointer-events:none;
   position: absolute;
@@ -1007,11 +1029,7 @@ right: 170px;
    top: 32px;
   }
 }
-@media (max-width: 420px){
-  .social{
-display: none;
-  }
-}
+
 .nav-position ul{
  margin-top: 34px;
  margin-left: 300px;
@@ -1208,26 +1226,23 @@ display: none;
   .header {
     position: absolute;
     margin-left: 96%;
-    margin-top:  10px;
+    margin-top:  24px;
 
   }
 }
 @media (max-width: 1200px) {
   .header {
     position: absolute;
-    margin-left: 94%;
-    margin-top:  10px;
+  margin-left: 94%;
+  
 
   }
 }
-  .header__burger{
-    margin-top: -50px;
-  }
-
+ 
 
   @media (max-width: 769px) {
     .header {
-  margin-top:  -2px;
+  margin-top:  10px;
       margin-left: 92%;
     }
   }
@@ -1242,7 +1257,7 @@ display: none;
 }
 
     .header__burger{
-      margin-top: 23px;
+      margin-top: 25px;
     }
   }
   .header:before {
@@ -1256,7 +1271,7 @@ display: none;
   .header__body {
     position: relative;
     display: flex;
-    height: 60px;
+ 
     align-items: center;
   }
   @media (max-width: 1690px){
@@ -1344,14 +1359,11 @@ display: none;
     }
 
     .header__body {
-      height: 80px;
-      width: 28px;
+   
     }
     .header__burger {
-      display: block;
-      position: relative;
-      width: 30px;
-      height: 20px;
+  
+  
       position: relative;
       z-index: 40;
     }
@@ -1495,3 +1507,13 @@ margin-right: -200px;
 
     }
   }
+
+
+
+
+
+
+
+
+
+

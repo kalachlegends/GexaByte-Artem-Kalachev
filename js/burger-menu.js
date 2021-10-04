@@ -4,3 +4,9 @@ $(document).ready(function() {
 		$('body').toggleClass('lock');
 	});
 });
+$(document).ready(function() {
+	$('.header__burger320').click(function(event) {
+		$('.header__burger320,.header__menu320').toggleClass('active');
+		$('body').toggleClass('lock');
+	});
+});
