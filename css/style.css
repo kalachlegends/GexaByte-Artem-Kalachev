@@ -11,7 +11,7 @@ body{background: #F2F2F2;
   body{
 display: block;
 background: no-repeat url(../img/backgroundBlobs768.svg) 35% ;
-width: 100%;
+width: 97%;
 height: 20%;
 
 
@@ -609,18 +609,6 @@ border-radius: 12px;
   overflow: hidden;
 }
 
-@media screen and (max-width: 1600px) {
-
-  .mainpage-img{
-    position: absolute;
-    width: 110%;
-    height: 110%;
-    left: 0px;
-   top: -118px;
-
-    overflow: hidden;
-  }
-}
 
 @media screen and (max-width: 1300px) {
 
@@ -1039,7 +1027,7 @@ margin-left: -5px;
    display:  block;
  }
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 625px) {
   .main-img-start{
 display: none;
  }
